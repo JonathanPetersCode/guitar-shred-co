@@ -1,0 +1,55 @@
+:root{
+  --mainBlue: rgb(7, 32, 52);
+  --lightBlue: #20639B;
+  --mainWhite: #FFF;
+  --mainDark: #232528;
+  --mainYellow: rgb(252, 228, 93);
+  --mainAlphaBlack : rgba(14, 8, 99, 0.735); 
+}
+body{
+ font-family: 'Cantarell',
+ serif !important;
+ background: var(--mainWhite) !important;
+ color: var(--mainDark) !important;
+}
+.navbar{
+  background: var(--mainBlue) !important;
+}
+.banner-container{
+  max-height: 30rem;
+  width: 50rem;
+}
+/* Start Nav Styles */
+.navbar-brand{
+  height: 6.3rem;
+}
+/* End Nav Styles */
+.price-color{
+  color: var(--mainDark);
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border-bottom: solid 1px (--mainDark);
+  font-family: 'PT Sans', sans-serif;
+}
+.text-bright{
+  color: var(--lightBlue);
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite)!important;
+}
+.social-container{
+  border: solid 1px var(--mainBlue) !important;
+}
+.cart-icon {
+cursor: pointer !important;
+color: var(--mainYellow) !important;
+}
